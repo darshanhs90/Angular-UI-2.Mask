@@ -1,0 +1,7 @@
+var app=angular.module("myApp",['ui.mask']);
+app.controller("MainController",function($scope){
+$scope.mask1="9999 9999 9999 9999";
+$scope.mask2="(999) 999-999";
+$scope.mask3="A9A9***A9A9";
+
+});
